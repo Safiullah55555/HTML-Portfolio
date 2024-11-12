@@ -141,6 +141,7 @@ a{
 }
 .dropdown-content ol{
         list-style-type: none;
+        padding: 0%;
 }
 .dropdown-content ol li a{
         color: yellow;

@@ -11,8 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // dropdown handle 
+    document.getElementById("dropdownMenu").style.display = "none";//initialize it unchecked
     
     function toggleDropdown(){
+
         const dropdownMenu=document.getElementById("dropdownMenu")
         dropdownMenu.style.display=dropdownMenu.style.display=="block"?"none":"block";
     }
@@ -25,6 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 if(openDropdown.style.display=="block"){
                     openDropdown.style.display="none"
                 }
+                
             }
         }
     }
+
+
+    
