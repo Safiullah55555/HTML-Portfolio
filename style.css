@@ -5,6 +5,7 @@ body{
   color: white;
   overflow: hidden; 
   cursor: default;
+  scroll-behavior: smooth;
 }
 .main{
         display: flex;
