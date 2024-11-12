@@ -89,6 +89,7 @@ a{
         top: 0;
         background-color: #121212;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         padding: 1rem 1rem;
@@ -121,9 +122,35 @@ a{
 }
 
 @media(max-width:1000px){
-        .hide{
+        .sidebar{
+                display: none;
+                
+        }
+        .sticky-nav{
+                justify-content: center;
+                padding: 0%;
+        }
+        
+
+}
+@media(min-width:1000px){
+        .icons,.dropdown-content,#dropdownMenu, .icon{
                 display: none;
         }
+
+}
+.dropdown-content ol{
+        list-style-type: none;
+}
+.dropdown-content ol li a{
+        color: yellow;
+}
+.dropdown-content ol li :hover{
+        color: green;
+
+}
+.nav-icons{
+        display: flex;
 }
 
 .card{
